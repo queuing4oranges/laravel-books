@@ -1,0 +1,24 @@
+$primary_color: rgb(1, 35, 1);
+$secondary_color: rgb(232, 52, 142);
+$primary_font: Arial;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $primary_font;
+    color: $primary_color;
+}
+
+h1{
+    color: $primary_color;
+    text-decoration: underline;
+}
+
+nav{
+    color: $primary_color;
+    background-color:$secondary_color ;
+    display: flex;
+    padding: 10px;
+}
